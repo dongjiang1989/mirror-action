@@ -7,8 +7,8 @@ Auto mirror repos by GitHub Action to muti git registry
 
 ```mermaid
 flowchart LR
-    hub_source("fa:fa-github <b>GitHub|GitLab|Gitee|git provider</b> source repository <b>[private|public]</b>")
-    hub_target{{"fa:fa-github <b>GitHub|GitLab|Gitee|git provider</b> target repository <b>[private|public]</b>"}}
+    hub_source("fa:fa-github <b>GitHub|GitLab|Gitee|Gitea|git provider</b> source repository <b>[private|public]</b>")
+    hub_target{{"fa:fa-github <b>GitHub|GitLab|Gitee|Gitea|git provider</b> target repository <b>[private|public]</b>"}}
     hub_source --> |"<b>https</b>"| hub_target
 ```
 
@@ -52,4 +52,4 @@ jobs:
 | target-username | Repository user name | `true` | |
 | target-url | The target Url with `https` protocol | `true` |  |
 
-* `target-token` the API token to create non-existent repo, You can get Github token in [here](https://github.com/settings/tokens), GitLab token in [here](https://gitlab.com/-/profile/personal_access_tokens) and the Gitee in [here](https://gitee.com/profile/personal_access_tokens).
+* `target-token` the API token to create non-existent repo, You can get Github token in [here](https://github.com/settings/tokens), GitLab token in [here](https://gitlab.com/-/profile/personal_access_tokens), Gitee in [here](https://gitee.com/profile/personal_access_tokens) and The Gitea in [here](https://gitea.com/user/settings/applications).
