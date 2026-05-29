@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Repos mirror sync gitee
+name: Repos mirror sync Gitee
 
 # Controls when the workflow will run
 on:
