@@ -1,7 +1,7 @@
 # Repos Mirror Action
 [![Repos mirror sync Github](https://github.com/kubeservice-stack/repos-mirror-action/actions/workflows/repos-mirror-github.yml/badge.svg?branch=master)](https://github.com/kubeservice-stack/repos-mirror-action/actions/workflows/repos-mirror-github.yml)
 
-Auto mirror repos by GitHub Action to muti git registry
+Auto mirror repos by GitHub Action to muti git registry.
 
 ## Features
 
